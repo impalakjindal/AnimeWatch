@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navBar{
+    height: 10vh;
+    width: 100vw;
+    margin-top: 5%;
+}
+.navBar ul {
+    list-style: none;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20% 0 20%;
+}
+.landingContent h1{
+    background-color: rgb(43, 42, 60);
+}
+.landingContent{
+position: relative;
+padding: 2%;
+   margin-left: 6%;
+   margin-right: 6%;
+   display: inline-block; 
+   height: 65vh;
+   background-color: rgb(43, 42, 60);
+   border-radius: 30px;
+}
+.landingWritten{
+    background-color: rgb(43, 42, 60);
+}
+.landingContent img{
+    position: absolute;
+    opacity: 0.3;
+    object-fit: cover;
+}
+.landingContent h5{
+    width: 45%;
+    margin-top: 2%;
+    line-height:140%;
+    padding: 2%;
+    background-color: rgb(43, 42, 60);
+}
+.landingContent i{
+    background-color: rgb(21, 165, 21);
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+}
+.landingSearch{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding:2%
+}
+.landingButton{
+    margin-top: 3.5%;
+    width: 40%;
+    background-color: rgb(21, 165, 21);
+    padding: 3%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 750;
+}
+.landingButton i{
+    border-radius: 50%;
+}
+.shares{
+    margin-top: 3%;
+    padding-left: 3%;
+}
+.shares span{
+    color:rgb(21, 165, 21);
+}
+.shares i{
+    background-color: transparent;
+}
+.shares button{
+    margin-left: 1%;
+    padding: 6px;
+    border-radius: 17px;
+    /* width: 9%; */
+    border: none;
+}
+.shares #telegram{
+    background-color:rgb(0, 136, 204);
+}
+.shares .twitter{
+    background-color: #000;
+}
+.shares .facebook{
+    background-color: rgb(65, 103, 178);
+}
+.shares .reddit{
+    background-color:rgb(255, 69, 0) ;
+}
+.shares .other{
+    background-color: rgb(150, 206, 62);
+}
